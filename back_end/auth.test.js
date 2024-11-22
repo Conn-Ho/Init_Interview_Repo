@@ -1,5 +1,6 @@
 const request = require('supertest');
 const app = require('./app.js'); // 导入你的 Express 应用
+// import app from './app.js';
 
 describe('Auth API', () => {
     // 测试用户注册
